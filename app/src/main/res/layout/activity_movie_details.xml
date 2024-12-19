@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/movieDetailsPoster"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/movieDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/movieDetailsYear"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/movieDetailsGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/movieDetailsPlot"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
